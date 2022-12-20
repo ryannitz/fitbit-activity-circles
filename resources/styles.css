@@ -1,0 +1,110 @@
+#background {
+  x: 0;
+  y: 0;
+  width: 100%;
+  height: 100%;
+  fill: #000000;
+}
+
+.title{
+  font-family: System-Bold;
+  fill: white;
+  y:7%;
+  x:0%;
+  font-size:30;
+  text-length:5;
+}
+
+#txtDate{
+  y: 27%;
+  font-size:30;
+}
+#txtSeconds{
+  font-size:45;
+  y:75%;
+}
+
+
+#percentText{
+  fill: white;
+  y:5%;
+  x:0%;
+  font-size:20;
+  text-length:5;
+}
+
+#arcContainer{
+  fill:white;
+}
+#heart{
+  fill:red;
+}
+#calories{
+  fill:orange;
+}
+#steps{
+  fill:blue;
+}
+
+.main-text {
+  font-family: System-Bold;
+  font-size: 75;
+  text-anchor: middle;
+  text-length: 20;
+  x: 50%;
+  y: 56%;
+  width: 100%;
+  height: 100%;
+  fill: white;
+}
+
+.secondary-text {
+  font-family: Seville;
+  font-size: 26;
+  text-anchor: middle;
+  text-length: 32;
+  x: 50%;
+  y: 70%;
+  width: 100%;
+  height: 100%;
+  fill: white;
+}
+
+.divider {
+  x: 50%-90;
+  width: 180;
+  height: 1;
+  fill: white;
+}
+
+.divider-btm {
+  y: 55%+15;
+}
+
+.cycle-item{
+  display:none;
+}
+
+.stat-image{
+  fill:white;
+  width:48;
+  height:48;
+  x:50%-24;
+  y:15%;
+}
+
+.stat-next-image{
+  fill:white;
+  width:24;
+  height:24;
+  x:100%-24;
+  y:100%-24;
+}
+
+.stat-next-text{
+  fill:white;
+  font-size:30;
+  x:100%-38;
+  y:100%-4;
+}
+

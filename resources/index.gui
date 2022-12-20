@@ -1,0 +1,113 @@
+<svg>
+  <text id="percentText">0%</text>
+  
+  <svg id="container" pointer-events="visible">
+    <use id="arcContainer" href="#progress" />
+    <use id="statsCycle" href="#cycleview">
+      
+        <svg id="time" class="cycle-item">
+          <text id="txtDate" class="secondary-text">JAN 01</text>
+          <text id="txtTime" class="main-text">--</text>
+          <text id="txtSeconds" class="secondary-text"></text>
+          <use id="iconHRM" class="stat-next-image" href="#heart-beat" />
+          <text class="stat-next-text">></text>
+        </svg>
+      
+        <svg id="heart" class="cycle-item">
+          <image href="images/48/solid/stat_hr.png" class="stat-image" />
+          <text id="txtHRM" class="main-text">--</text>
+          <rect class="divider divider-btm" />
+          <text id="" class="secondary-text">JAN 01</text>
+          <image id="iconHRM" href="images/48/solid/stat_cals.png" class="stat-next-image" />
+          <text class="stat-next-text">></text>
+        </svg>
+         
+        <svg id="calories" class="cycle-item">
+          <image href="images/48/solid/stat_cals.png" class="stat-image" />
+          <text id="" class="main-text">--</text>
+          <rect class="divider divider-btm" />
+          <text id="" class="secondary-text">JAN 01</text>
+          <image href="images/48/solid/stat_steps.png" class="stat-next-image" />
+          <text class="stat-next-text">></text>
+        </svg>
+      
+        <svg id="steps" class="cycle-item">
+          <image href="images/48/solid/stat_steps.png" class="stat-image" />
+          <text id="" class="main-text">--</text>
+          <rect class="divider divider-btm" />
+          <text id="" class="secondary-text">JAN 01</text>
+          <image href="images/48/solid/stat_dist.png" class="stat-next-image" />
+          <text class="stat-next-text">></text>
+        </svg>
+      
+        <svg id="distance" class="cycle-item">
+          <image href="images/48/solid/stat_dist.png" class="stat-image" />
+          <text id="" class="main-text">--</text>
+          <rect class="divider divider-btm" />
+          <text id="" class="secondary-text">JAN 01</text>
+          <image href="images/48/solid/stat_floors.png" class="stat-next-image" />
+          <text class="stat-next-text">></text>
+        </svg>
+      
+        <svg id="floors" class="cycle-item">
+          <image href="images/48/solid/stat_floors.png" class="stat-image" />
+          <text id="" class="main-text">--</text>
+          <rect class="divider divider-btm" />
+          <text id="" class="secondary-text">JAN 01</text>
+          <image href="images/48/solid/stat_am.png" class="stat-next-image" />
+          <text class="stat-next-text">></text>
+        </svg>
+      
+        <svg id="activeMinutes" class="cycle-item">
+          <image href="images/48/solid/stat_am.png" class="stat-image" />
+          <text id="" class="main-text">--</text>
+          <rect class="divider divider-btm" />
+          <text id="" class="secondary-text">JAN 01</text>
+          <image href="images/stat_duration.png" class="stat-next-image" />
+          <text class="stat-next-text">></text>
+        </svg>
+      
+    </use>
+  </svg>
+    
+  <svg>
+    <circle cx="35%" cy="88%" r="1%" fill="white" opacity = "0.25"/><!--   Time   -->
+    <circle cx="40%" cy="88%" r="1%" fill="white" opacity = "0.25"/><!--   Heart   -->
+    <circle cx="45%" cy="88%" r="1%" fill="white" opacity = "0.25" /><!--   Cal   -->
+    <circle cx="50%" cy="88%" r="1%" fill="white" opacity = "0.25" /><!--   Steps   -->
+    <circle cx="55%" cy="88%" r="1%" fill="white" opacity = "0.25" /><!--   Stairs   -->
+    <circle cx="60%" cy="88%" r="1%" fill="white" opacity = "0.25" /><!--   Distance   -->
+    <circle cx="65%" cy="88%" r="1%" fill="white" opacity = "0.25" /><!--   ActiveMins   -->
+  </svg>
+    
+  
+<!--   <rect id="background" />
+  <text id="txtBase" class="base-text">13:37 in base 10:</text>
+  <rect class="divider divider-btm" />
+  <svg class="stats"> -->
+<!--     <use id="iconHRM" href="#heart-beat" />
+    <text id="txtHRM" class="stat-left" />
+    
+      <use id="steps-item" href="#cycleview-item" class="cycle-item col2">
+        <image href="images/steps.png" class="image" />
+        <text class="stat-right stat-text" />
+      </use>
+      <use id="calories-item" href="#cycleview-item" class="cycle-item col1 second-row">
+        <image href="images/calories.png" class="image" />
+        <text class="stat-left stat-text" />
+      </use>
+      <use id="floors-item" href="#cycleview-item" class="cycle-item col2 second-row">
+        <image href="images/floors.png" class="image" />
+        <text class="stat-right stat-text" />
+      </use>
+      <use id="distance-item" href="#cycleview-item" class="cycle-item col1 third-row">
+        <image href="images/distance.png" class="image" />
+        <text class="stat-left stat-text" />
+      </use>
+      <use id="activemins-item" href="#cycleview-item" class="cycle-item col2 third-row">
+        <image href="images/active_minutes.png" class="image" />
+        <text class="stat-right stat-text" />
+      </use>
+  </svg> -->
+  <rect id="screen" width="100%" height="100%" pointer-events="visible" opacity="0"/>
+</svg>

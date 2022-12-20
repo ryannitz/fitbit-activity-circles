@@ -1,0 +1,36 @@
+<svg>
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/widgets_common.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.gui"/>
+    <link rel="import" href="/mnt/sysassets/widgets/cycleview_widget.gui"/>
+    
+    <symbol id="heart-beat">
+      <g transform="translate(50%,50%)">
+        <image id="icon" x="-50%" y="-50%" href="images/48/solid/stat_hr.png" />
+        <animateTransform attributeName="transform" attributeType="scale"
+          begin="highlight" end="unload;unhighlight" to="0.85"
+          repeatCount="indefinite" final="keep" />
+        <animateTransform attributeName="transform" attributeType="scale"
+          begin="highlight+0.433" end="unload;unhighlight" to="1.0"
+          repeatCount="indefinite" final="keep" />
+      </g>
+    </symbol>
+    
+    <symbol id="progress">
+      <arc x="0" y="0" width="100%" height="100%" arc-width="16" start-angle="0" sweep-angle="360" opacity="0.25"/>
+      <arc id="arc" x="0" y="0" width="100%" height="100%" arc-width="16" start-angle="0" sweep-angle="360" >
+        <animate id="arcAnim" attributeName="sweep-angle" begin="enable" from="0" to="360" dur=".25" final="keep" easing="ease-out" />
+      </arc>
+      <g transform="translate(50%, 50%)">
+        <circle cx="0" cy="-142" r="8"/>
+      </g>
+      <g id="circle" transform="translate(50%, 50%)">
+        <animateTransform id="circleAnim" attributeType="rotate" begin="enable" from="0" to="360" dur="0.25" final="keep" easing="ease-out"/>
+        <circle cx="0" cy="-142" r="8"/>
+      </g>
+    </symbol>
+    
+   
+  </defs>
+</svg>
